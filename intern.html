@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - final intern 2</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>The Rising People Welfare Society</title>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>   
+    <link rel="stylesheet" type="text/css" href="intern.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!------navigation------->
+<div class="bgimg">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-scroll">
+  <div class="container-fluid">
+      <a href="#" class="navbar-brand"><img class="logo" src="img\cropped-Logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a href="Home.html" class="nav-link text-dark">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="aboutus.html" class="nav-link text-dark">About Us</a>
+              </li>
+              <li class="nav-item">
+                  <a href="intern.html" class="nav-link text-dark">Intern</a>
+              </li>
+              <li class="nav-item">
+                  <a href="vol.html" class="nav-link text-dark">Volunteer</a>
+              </li>
+      <li class="nav-item">
+                  <a href="events.html" class="nav-link text-dark">Events</a>
+              </li>
+      <li class="nav-item">
+                  <a href="project_ahar.html" class="nav-link text-dark">Project AAHAR </a>
+              </li>
+              <li class="nav-item">
+                  <a href="contact.html" class="nav-link text-dark">Contact Us</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+  </nav>
+</div>
+<form action="file:///C:/Users/nikku/Desktop/final-intern/dist/index.html" method="POST" name="contact-form">
+  
+  <div class="box">
+    <div class="logo">
+     
+    </div>
+    <div class="text">
+    <h1>GET <span class="red">INVOLVED</span></h1>
+    <hr class="redline">
+    <p>We provide opportunity for volunteering and internship at our NGO TRPWS. Anyone irrespective of age, gender, race, colour, country can apply for internships in various fields at our NGO.</p>
+    </div>
+  </div>
+
+  <div class="touch">
+    <h2>Apply here for internships</h2>
+    <hr class="redline">
+  </div>
+  
+  
+  <div class="container form-margin">
+    <div class="row">
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>     <div class="col-lg-4 col-md-4 col-sm-4">
+      <div class="form-group">
+    <input type="text" class="form-control" placeholder="First Name" ng-model="firstname" name="firstname" required>    
+      </div>
+    <div class="form-group">
+           
+ <label for="Internship-select">Choose a internship:</label>
+
+<select name="choose internship" id="intern-select">
+    <option value="">--Please choose an option--</option>
+    <option value="volunteering">Volunteering</option>
+    <option value="web development">web developer</option>
+    <option value="teaching">teaching</option>
+    
+</select>     
+
+ </div>
+    <div class="form-group">
+    <input type="text" class="form-control" placeholder="Phone" ng-model="phone" name="firstname" required>    
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <div class="form-group">
+    <input type="text" class="form-control" placeholder="Last Name" ng-model="lastname" name="lastname" required>    
+      </div>
+      <div class="form-group">
+    <input type="email" class="form-control" placeholder="E-mail" ng-model="email" name="email" required>    
+      </div>
+      <div class="form-group">
+    <input type="text" class="form-control" placeholder="Course" ng-model="course" name="course" required>    
+      </div>
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+    <div class="col-lg-8 col-md-8 col-sm-8">
+      <div class="form-group">
+    <textarea class="form-control" rows="6" placeholder="Message" ng-model="message" name="message" required></textarea>
+  </div>  
+      <div class="pager">
+      <button type="submit" class="btn btn-success">SUBMIT</button><br><br>
+      </div>
+      </div>
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+  
+  </div>
+  </>
+  <!--address-->
+<footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+    <div class="col-md-4">
+        <img src="https://aqhgv7v1rc0853bb2cygkq-on.drv.tw/www.rare.com/img/cropped-Logo.png">
+        <hr class="light">
+        <p>The rising people welfare society, DDA park (Woodland park), opposite gate No.4 Pacific mall, Subhash Nagar, New-Delhi, India 110018</p>
+    </div>
+    <div class="col-md-4">
+        <hr class="light">
+        <h5>Our Hours</h5>
+        <hr class="light">
+        <p>Monday - Friday: 9am - 5pm</p>
+        <p>Saturday: 10am - 4pm</p>
+        <p>Sunday: Closed</p>
+    </div>
+    <div class="col-md-4">
+        <hr class="light">
+        <h5>Contact</h5>
+        <hr class="light">
+        <p>trpws2012@gmail.com</p>
+    </div>
+    <div class="col-12">
+        <hr class="light-100">
+        <h5>&copy; Trpws.com</h5>
+    </div>
+</div>
+</div>
+</footer>
+  
+ 
+  
+</body>  
+</html>
+<!-- partial -->
+  
+</body>
+</html>
