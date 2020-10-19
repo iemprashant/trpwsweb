@@ -376,9 +376,33 @@ figure{
 
 /* Volunteer Page css ends */
 /*Project Aahar page css*/
-.head:hover
-{
-    
-        background-color:blue;
-     
+*{scroll-behavior: smooth;}
+
+/*about us cover */
+.about-cover-img{
+    height: 750px;
+    background-image: url(img/a1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+
+.donate h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
 }
+
+.green-br{
+     width: 70px; 
+    display: block;
+    height: 2px;
+    background: #009970;
+}
+
+
+
+  
+
+  

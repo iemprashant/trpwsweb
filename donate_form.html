@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>The Rising People Welfare Society</title>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>   
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!------navigation------->
+<div class="bgimg">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-scroll">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand"><img class="logo" src="img\cropped-Logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link text-dark">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index1.html" class="nav-link text-dark">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index3.html" class="nav-link text-dark">Intern</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link text-dark">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="project_ahar.html" class="nav-link text-dark">Project Aahar</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link text-dark">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+</div>
+
+<!------------add js--------->
+<script type="text/javascript">
+    $(window).on("scroll", function(){
+        if($(window).scrollTop())  {
+            $('nav').addClass('black');
+        }
+        else{
+            $('nav').removeClass('black');
+        }
+    })
+</script>
+
+
+<!------jumbotron-------->
+
+
+<!---------CONNECT WITH US---------->
+<center>
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Donation Form</form></h1>
+        </div>
+        <hr>
+    </div>
+</div>
+</center>
+    <!----------card------------>
+    <div class="conteiner-fluid padding" style="
+    padding: 25px 50px 75px 100px;">
+        
+    <div class="row padding">
+        
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title text-center"><b>Donation Information</b></h4>
+                    <p class="card-text ">I would like to make a donation in the amount of:</p>
+                    <form>
+                        <input type="radio" id="male" name="rupee" value="male">
+                        <label for="male">₹1,000 </label><br>
+                        <input type="radio" id="female" name="rupee" value="female">
+                        <label for="female">₹500 </label><br>
+                        <input type="radio" id="female" name="rupee" value="female">
+                        <label for="female">₹100</label><br>
+                        <input type="radio" id="female" name="rupee" value="female">
+                        <label for="female">₹50</label><br>
+                        <input type="radio" id="other" name="rupee" value="other">
+                        <label for="other">Other</label><br>
+                        
+                        <input type="checkbox" id="donation" name="donation" value="donation">
+                        <label for="donation"> I would like this donation to repeat each month</label>
+                       
+                      </form> 
+                    
+                </div>
+            </div>    
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title text-center"><b>Donor Information</b></h4><br>
+                    <p class="card-text "></p>
+                    <form>
+                        <label for="fname">First name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="mname">Middle name:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="text" id="mname" name="mname"><br>
+                        <label for="lname">Last name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="text" id="lname" name="lname"><br>
+                        <label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="email" id="email" name="email"><br>
+                        <label for="password">Phone:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="passowrd" id="number" name="number"><br>
+                      </form><br>
+                    <!-- <a href="#" class="btn btn-outline-secondary">DONATE NOW</a> -->
+                </div>
+            </div>    
+        </div>
+
+    
+    <div>
+           
+    </div>
+    </div>
+    <a href="donate_form.html" class="btn btn-outline-secondary text-center">DONATE</a>
+    </div>
+    
+
+
+
+
+<br>
+<!---------footer---------->
+<footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+    <div class="col-md-4">
+        <img src="img/cropped-Logo.png">
+        <hr class="light">
+        <p>The rising people welfare society, DDA park (Woodland park), opposite gate No.4 Pacific mall, Subhash Nagar, New-Delhi, India 110018</p>
+    </div>
+    <div class="col-md-4">
+        <hr class="light">
+        <h5>Our Hours</h5>
+        <hr class="light">
+        <p>Monday - Friday: 9am - 5pm</p>
+        <p>Saturday: 10am - 4pm</p>
+        <p>Sunday: Closed</p>
+    </div>
+    <div class="col-md-4">
+        <hr class="light">
+        <h5>Contact</h5>
+        <hr class="light">
+        <p>trpws2012@gmail.com</p>
+    </div>
+    <div class="col-12">
+        <hr class="light-100">
+        <h5>&copy; Trpws.com</h5>
+    </div>
+</div>
+</div>
+</footer>
+</body>
+</html>
