@@ -378,8 +378,8 @@ figure{
 /*Project Aahar page css*/
 *{scroll-behavior: smooth;}
 
-/*about us cover */
-.about-cover-img{
+
+.donate-cover-img{
     height: 750px;
     background-image: url(img/a1.jpg);
     background-attachment: fixed;
@@ -387,13 +387,19 @@ figure{
     }
 
 
-.donate h2{
+/* .donate h2{
     font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
+} */
+.donate h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 .green-br{
      width: 70px; 
     display: block;
@@ -402,6 +408,12 @@ figure{
 }
 
 
+.donate-form-img{
+    height: 750px;
+    background-image: url(img/donate.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    }
 
   
 
