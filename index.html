@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=1, user-scalable=no" />
@@ -11,24 +10,59 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <title>TRPWS - HOME</title>
-	  <!-- Favicon-->
-    	<link rel="icon" type="image" href="./images/website-favicon.png" sizes="192x192" />
+    <title>Home-The Rising People Welfare Society</title>
+	<!-- Favicon-->
+    <link rel="icon" type="image" href="https://www.trpws.com/wp-content/uploads/2020/06/website-favicon.png" sizes="192x192" />
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <!-- custom add-ons for nav bar and footer -->
     <link rel="stylesheet" type="text/css" href="add.css">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <script src="owl.carousel/owl.carousel.min.js"></script>
+    <script src="aos/aos.js"></script>
     <link href="boxicons/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome/css/all.css">
+    <style type="text/css">
+      #mybtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: #1E8449;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 18px;
+      }
+      #mybtn:hover{
+        background-color: #145A32;
+      }
+    </style>
+
 </head>
 
 <body>
-<!------navigation------->
-<div class="container-fluid menu">
+    <!------navigation------->
+    <div class="container-fluid menu">
         <nav class="navbar navbar-expand-lg my-navbar">
-            <a class="navbar-brand " href="#"><img src="./images/trpws.png" height="50px" alt="" loading="lazy"></a>
+            <a class="navbar-brand " href="#"><img src="img/logo.png" height="85px" width="165px"  alt="" loading="lazy"></a>
             <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -61,7 +95,7 @@
                 </ul>
             </div>
         </nav>
-</div>
+    </div>
 
 <!--------------------------------------- header image --------------------------------------->
 <div id="header">
@@ -74,13 +108,13 @@
 <!---------------------------------------- jumbotron ---------------------------------------->
 <div class="container-fluid">
 <div class="row jumbotron">
-    <div class="col-xs-20 col-sm-12 col-md-20 col-lg-20 col-xl-100" >
-        <h1 class="text-center" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">WHO WE ARE AND WHAT DO WE DO?</h1>
+    <div class="col-xs-20 col-sm-12 col-md-20 col-lg-20 col-xl-100">
+        <h1 class="text-center">WHO WE ARE AND WHAT DO WE DO?</h1>
 		<div class="border1 "></div>
         <p class="text-center px-md-5">The rising people welfare society aims to build a better living ecosystem to the underprivileged childeren in New Delhi by providing them with the right education and care at the right time in life.</p>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 text-center">
-        <a href="./aboutus.html"><button type="button" class="btn btn-lg border border-secondary read-more">Read More</button></a>
+        <a href="./aboutus.html"><button type="button" class="btn btn-lg border border-secondary">Read More</button></a>
     </div>
 </div>
 </div>
@@ -88,7 +122,7 @@
 <div class="container-fluid padding">
   <div class="row welcome text-center">
       <div class="col-12">
-          <h1 data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">WE TEACH THEM THE RIGHT WAY</h1>
+          <h1>WE TEACH THEM THE RIGHT WAY</h1>
       <div class="border1"></div>
       </div>
       <div class="col-12">
@@ -96,22 +130,23 @@
       </div>
   </div>
 </div>
+	
 <!-------------------------------------- Three column section --------------------------------->
 <section class="services section-bg">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <div class="row">
-              <div class="col-md-4 d-flex align-items-stretch" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
-                <div class="icon-box" >
-                  <div class="icon"><i class="fa fa-hands-helping fa-3x"></i></div>
+              <div class="col-md-4 d-flex align-items-stretch">
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon"><i class="fas fa-hand-holding-heart fa-3x"></i></div>
                   <h4><a href="">Donation drives</a></h4>
                   <p>One man's trash is another man's treasure. Our needy children get donations everymonth from the privileged section. You never know, a pen to you, is worth a career to another.</p>
                 </div>
               </div>
 
-              <div class="col-md-4 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="100">
-                <div class="icon-box" >
+              <div class="col-md-4 d-flex align-items-stretch mt-4 mt-lg-0">
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                   <div class="icon"><i class="fa fa-university fa-3x"></i></div>
                   <h4><a href="">Teaching</a></h4>
                   <p>In todays world, everyone needs to be educated. To survive in this world, More literacy isn't enough. Our kids are taught alphabets to alpha beta gama. We make sure that at the end of the day, the child doesn't only have fun but learn somthing of value.
@@ -119,11 +154,11 @@
                 </div>
               </div>
 
-              <div class="col-md-4 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
-                <div class="icon-box" >
-                  <div class="icon"><i class="fa fa-box fa-3x"></i></div>
-                  <h4><a href="">Project Aahar</a></h4>
-                  <p>Sponsor a food packet @50 that would comprise of vegetable and three chappatis to save a starving soul in these turbulent times of the corona crisis.</p>
+              <div class="col-md-4 d-flex align-items-stretch mt-4 mt-lg-0">
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="icon"><i class="fa fa-times fa-3x"></i></div>
+                  <h4><a href="">Ending drugmenace</a></h4>
+                  <p>We belive that drugs and addiction are a pediment in a child's future. Our attempts to divert children from the wrong path and get rid of any addiction have been successful so far.</p>
                 </div>
               </div>
              
@@ -132,17 +167,18 @@
         </div>
 	 </div>
  </section>
+
 <!------------------- EDUCATION @TRPWS SECTION --------------------------->
 <section id="portfolio" class="portfolio section-bg">
-      <div class="container" >
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
          <div class="section-title">
           <h2>EDUCATION</h2>
          </div>
 
         <div class="row portfolio-container">
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
-              <img src="./images/home_images/edu-1.jpg" class="img-fluid">
+            <div class="portfolio-wrap">
+              <img src="./img/bac.jpg" class="img-fluid">
               <div class="portfolio-info">
                 <h4>WE LOVE</h4>
               </div>
@@ -150,8 +186,8 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="100">
-              <img src="./images/home_images/edu-2.jpg" class="img-fluid">
+            <div class="portfolio-wrap">
+              <img src="./img/m.jpg" class="img-fluid">
               <div class="portfolio-info">
                 <h4>WE CARE</h4>
               </div>
@@ -159,8 +195,8 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="100">
-              <img src="./images/home_images/edu-3.jpg" class="img-fluid">
+            <div class="portfolio-wrap">
+              <img src="./img/car.jpg" class="img-fluid">
               <div class="portfolio-info">
                 <h4>WE TEACH</h4>
               </div>
@@ -169,10 +205,11 @@
 			
        </div>
    </div>
-</section>
+  </section>
+
 <!----------------------------- Portfolio Section ------------------------------>
-<section id="portfolio" class="portfolio">
-      <div class="container" >
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
          <div class="section-title">
           <h2>Our Gallery</h2>
           <p>We reach out to children and make them interact with young people from universities and teach them in a friendly way so as to provide them with a family environment for learning, make them understand our culture and hardships they need to overcome in the journey of their life.</p>
@@ -180,8 +217,8 @@
 
         <div class="row portfolio-container">
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
-              <img src="./images/home_images/gal-1.png" class="img-fluid">
+            <div class="portfolio-wrap">
+              <img src="./img/carousel7.png" class="img-fluid">
               <div class="portfolio-info">
                 <h4>Fun Time</h4>
                 <div class="portfolio-links">
@@ -193,8 +230,8 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="100">
-              <img src="./images/home_images/gal-2.jpg" class="img-fluid">
+            <div class="portfolio-wrap">
+              <img src="./img/img1.jpg" class="img-fluid">
               <div class="portfolio-info">
                 <h4>Great Time</h4>
                 <div class="portfolio-links">
@@ -206,8 +243,8 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="100">
-              <img src="./images/home_images/gal-3.png" class="img-fluid">
+            <div class="portfolio-wrap">
+              <img src="./img/carousel11.png" class="img-fluid">
               <div class="portfolio-info">
                 <h4>Study Time</h4>
                 <div class="portfolio-links">
@@ -219,8 +256,8 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
-              <img src="./images/home_images/gal-4.png" class="img-fluid">
+            <div class="portfolio-wrap">
+              <img src="./img/carousel1.png" class="img-fluid">
               <div class="portfolio-info">
                 <h4>Fun Time</h4>
                 <div class="portfolio-links">
@@ -232,8 +269,8 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="100">
-              <img src="./images/home_images/gal-5.jpg" class="img-fluid">
+            <div class="portfolio-wrap">
+              <img src="./img/img2.jpg" class="img-fluid">
               <div class="portfolio-info">
                 <h4>Great Time</h4>
                 <div class="portfolio-links">
@@ -245,8 +282,8 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="100">
-              <img src="./images/home_images/gal-6.jpg" class="img-fluid">
+            <div class="portfolio-wrap">
+              <img src="./img/img4.jpg" class="img-fluid">
               <div class="portfolio-info">
                 <h4>Study Time</h4>
                 <div class="portfolio-links">
@@ -258,8 +295,8 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
-              <img src="./images/home_images/gal-7.jpg" class="img-fluid">
+            <div class="portfolio-wrap">
+              <img src="./img/carousel6.jpg" class="img-fluid">
               <div class="portfolio-info">
                 <h4>Fun Time</h4>
                 <div class="portfolio-links">
@@ -271,8 +308,8 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="100">
-              <img src="./images/home_images/gal-8.jpg" class="img-fluid">
+            <div class="portfolio-wrap">
+              <img src="./img/img3.jpg" class="img-fluid">
               <div class="portfolio-info">
                 <h4>Great Time</h4>
                 <div class="portfolio-links">
@@ -284,8 +321,8 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="100">
-              <img src="./images/home_images/gal-9.png" class="img-fluid">
+            <div class="portfolio-wrap">
+              <img src="./img/carousel2.png" class="img-fluid">
               <div class="portfolio-info">
                 <h4>Study Time</h4>
                 <div class="portfolio-links">
@@ -298,47 +335,50 @@
     
        </div>
    </div>
-</section>
+  </section>
+	
 <!--------------------------------- Testinomials -------------------------------------->
-<div class="testimonials">
-	   <div class="inner ">
+	<div class="testimonials">
+	   <div class="inner">
 		    <h1>TESTIMONIALS</h1>
 		     <div class="border1"></div>
 		       
 		     <div class="row1">
-		        <div class="col" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
-				   <div class="testimonial" style="padding-bottom: 32px;">
-					 <img src="./images/testimonial-images/shilpi-gupta.png">
+		        <div class="col">
+				   <div class="testimonial">
+					 <img src="./img/WhatsApp-Image-2020-06-25-at-08.52.54-e1593787013311 (1).jpeg">
 					 <div class="name">Shilpi Gupta</div>
 					   <div class="stars">
 					     <i class="fas fa-star"></i>
 						 <i class="fas fa-star"></i>
 						 <i class="fas fa-star"></i>
 						 <i class="fas fa-star"></i>
-						 <i class="fas fa-star"></i>
+						 <i class="far fa-star"></i>
 					   </div>
+					   
 					   <p>It's a great place for people who want to do social work. Environment is good very friendly. NGO is doing great by helping the poor children to achieve their dreams .</p>
 				   </div>
 			    </div>
 				 
-				 <div class="col" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="100">
+				 <div class="col">
 				   <div class="testimonial">
-					 <img src="./images/testimonial-images/akshita-babutta.png">
+					 <img src="./img/WhatsApp-Image-2020-06-25-at-08.52.56-e1593953836782 (1).jpeg">
 					 <div class="name">Akshita Babutta</div>
 					   <div class="stars">
 					     <i class="fas fa-star"></i>
 						 <i class="fas fa-star"></i>
 						 <i class="fas fa-star"></i>
 						 <i class="fas fa-star"></i>
-						 <i class="fas fa-star"></i>
+						 <i class="far fa-star"></i>
 					   </div>
+					   
 					   <p>I have been working with The rising people welfare society from past 3 weeks and it feels great to be part of this organisation. Each and every team member is extremely supportive and enthusiastic towards their work.</p>
 				   </div>
 			    </div>
 				 
-				 <div class="col" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="100">
+				 <div class="col">
 				   <div class="testimonial">
-					 <img src="./images/testimonial-images/bineet-singh.png">
+					 <img src="./img/WhatsApp-Image-2020-06-25-at-08.52.59-e1593953710794 (1).jpeg">
 					 <div class="name">Bineet Singh</div>
 					   <div class="stars">
 					     <i class="fas fa-star"></i>
@@ -347,63 +387,70 @@
 						 <i class="fas fa-star"></i>
 						 <i class="fas fa-star"></i>
 					   </div>
+					   
 					   <p>The Rising People Welfare Society is doing an absolute exemplary work by giving these little kids a beautiful life not only by the means of education but also through their overall development.</p>
 				   </div>
 			    </div>
 				 
-				 <div class="col" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
+				 <div class="col">
 				   <div class="testimonial">
-					 <img src="./images/testimonial-images/khushi-atolia.png">
+					 <img src="./img/WhatsApp-Image-2020-06-25-at-08.52.57-e1593787346682 (1).jpeg">
 					 <div class="name">Khushi Atolia</div>
 					   <div class="stars">
 					     <i class="fas fa-star"></i>
 						 <i class="fas fa-star"></i>
 						 <i class="fas fa-star"></i>
-						 <i class="fas fa-star"></i>
-						 <i class="fas fa-star"></i>
+						 <i class="far fa-star"></i>
+						 <i class="far fa-star"></i>
 					   </div>
+					   
 					   <p>This NGO is doing amazing work by helping for upliftment of the children from slum so they have a good career and a brighter future.The things they do without any help from the government or any other organization is just remarkable and worth mentioning.</p>
 				   </div>
 			    </div>
 				 
-				 <div class="col" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="100">
+				 <div class="col">
 				   <div class="testimonial">
-					 <img src="./images/testimonial-images/devesh-mittal.png">
+					 <img src="./img/WhatsApp-Image-2020-06-25-at-08.52.58-e1593953872808 (1).jpeg">
 					 <div class="name">Devesh Mittal</div>
 					   <div class="stars">
 						 <i class="fas fa-star"></i>
 						 <i class="fas fa-star"></i>
 						 <i class="fas fa-star"></i>
 						 <i class="fas fa-star"></i>
-						 <i class="fas fa-star"></i>
+						 <i class="far fa-star"></i>
 					   </div>
-					   <p>Trpws is working for a noble and selfless cause... Providing education to children who do not have access to it is highly appreciated... and I feel pleased to be a part of this group...<br><strong>#TRPWS</strong><br><strong>#ProjectAAHAR</strong></p>
+					   
+					   <p>Trpws is working for a noble and selfless cause... Providing education to children who do not have access to it is highly appreciated... and I feel pleased to be a part of this group...<br>#TRPWS <br>#ProjectAAHAR</p>
 				   </div>
 			    </div>
 				 
 		      </div>
 		</div>
-</div>
+	</div>
 
+		
 <!--------------------------------- footer ------------------------------------------>
-<footer id="footer">
+    <footer id="footer">
         <div class="footer-top">
             <div class="container">
-                <div class="row">
+                <div class="row" >
+                  <div class="col-lg-4 col-md-6 footer-contact" style="height: 200px">
+                    <img src="img/logo.png" height="85%">
+                    
+                  </div>
 
-                    <div class="col-lg-3 col-md-6 footer-contact">
-                        <h3>The Rising People Welfare Society</h3>
+                    <div class="col-lg-4 col-md-6 footer-contact" style="height: 200px">
+                        <h3 style="color: #1E8449"><b>The Rising People Welfare Society</b></h3>
                         <p>
                             Woodland Park, Block C<br>
                             Tagore Garden, Subhash Nagar<br>
-                            Delhi, 110018<br><br>
+                            Delhi, 110018<br>
                             <strong>Phone:</strong> +918800100021<br>
                             <strong>Email:</strong> trpws2012@gmail.com<br>
                         </p>
                     </div>
-
-                </div>
-                <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                    <div class="col-lg-4">
+                      <div class="social-links text-center text-md-right pt-3 pt-md-0">
                     <a href="https://twitter.com/hashtag/trpws" class="twitter" target="_blank"><i
                             class="bx bxl-twitter"></i></a>
                     <a href="https://www.facebook.com/TRPWS/" class="facebook" target="_blank"><i
@@ -415,38 +462,48 @@
                     <a href="https://www.linkedin.com/jobs/the-rising-people-welfare-society-jobs/?originalSubdomain=in"
                         class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
                 </div>
+                    </div>
+
+                </div>
+                
             </div>
         </div>
-</footer>
+    </footer>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+    <!----------------------Go to top button------------------------>
+    <button onclick="topFunction()" id = "mybtn" title="Go to top">Go to Top</button>
 
-<!-- navbar animation -->
-<script>
-  $(document).ready(function () {
-    $(window).scroll(function () {
-      if ($(window).scrollTop() > 60) {
-        $('.my-navbar').addClass('navbar-scroll');
-      }
-      else {
-        $('.my-navbar').removeClass('navbar-scroll');
+
+    <!-- navbar animation -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 60) {
+                    $('.my-navbar').addClass('navbar-scroll');
+                }
+                else {
+                    $('.my-navbar').removeClass('navbar-scroll');
+                }
+            });
+        });
+
+    </script>
+    <script type="text/javascript">
+      myButton = document.getElementById("mybtn");
+      window.onscroll = function() {scrollfunction()};
+      function scrollfunction() {
+        if(document.body.scrollTop  > 40 || document.documentElement.scrollTop > 40) {
+          myButton.style.display = "Block";
+        } else {
+          myButton.style.display = "none";
         }
-    });
-  });
-  </script>
-<!--aos js link-->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>    
-<script>AOS.init();</script>    
+      }
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+
 </body>
 
 </html>

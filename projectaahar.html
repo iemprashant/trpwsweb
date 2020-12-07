@@ -10,27 +10,59 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <title>TRPWS - PROJECT AAHAR</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image" href="./images/website-favicon.png" sizes="192x192" />
+    <title>PROJECT AAHAR</title>
 
     <!--stylesheet link-->
     <link rel="stylesheet" type="text/css" href="style.css">
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
     <!-- custom add-ons -->
     <link rel="stylesheet" type="text/css" href="add.css">
     <script src="owl.carousel/owl.carousel.min.js"></script>
+    <script src="aos/aos.js"></script>
     <link href="boxicons/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome/css/all.css">
 
-    <!--aos link-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style type="text/css">
+      #mybtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: #1E8449;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 18px;
+      }
+      #mybtn:hover{
+        background-color: #145A32;
+      }
+    </style>
+
+
 </head>
 <body>
     <!------navigation----->
     <div class="container-fluid menu">
         <nav class="navbar navbar-expand-lg my-navbar">
-            <a class="navbar-brand " href="#"><img src="./images/trpws.png" height="50px" alt="" loading="lazy"></a>
+            <a class="navbar-brand " href="#"><img src="img/logo.png" height="85px" width="165px"  alt="" loading="lazy"></a>
             <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -84,12 +116,10 @@
             </div>
             <div class="row">
             <div class="col-lg-4 text-center">
-                <img src="./images/projectaahar_images/1.jpeg" alt="" width="250px" height="200px" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="100">
+                <img src="img/Orphan+eating+soup (1).jpeg" alt="" width="250px" height="200px">
             </div>
             <div class="col-lg-8 justify-content-center" data-aos="fade-left"  data-aos-easing="ease-in-sine" data-aos-delay="100">
                 <p>The pandemic has took a toll on the lives of numerous people, especially the migrants and homeless destitutes who have even been deprived of a square meal a day. At the time of this global pandemic, let’s lend out a helping hand to our community. Sponsor a food packet @50 that would comprise of vegetable and three chappatis to save a starving soul in these turbulent times of the corona crisis.</p>
-                <h4 class="pb-2" style='font-weight: bold; text-decoration: underline; font-variant: small-caps; text-shadow: 2px 3px 3px #777777;'>Click here to donate <i class="fa fa-arrow-down" aria-hidden="true"></i></h4>
-                <a href="donateform.html" target="_blank" class="btn btn-outline-success donate-btn">DONATE NOW ( &#8377; 50/PACKET) </a>
                 </div>
             </div>
         </div>
@@ -106,19 +136,19 @@
             <div class="row portfolio-container  px-4 py-2">
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap ">
-                    <img src="./images/projectaahar_images/2.jfif" class="img-fluid shadow" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
+                    <img src="./img/download (4).jfif" class="img-fluid shadow">
                   </div>
                 </div>
       
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                   <div class="portfolio-wrap">
-                    <img src="./images/projectaahar_images/3.jfif" class="img-fluid shadow" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="100">
+                    <img src="./img/images (6).jfif" class="img-fluid shadow">
                   </div>
                 </div>
       
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="./images/projectaahar_images/4.jfif" class="img-fluid shadow" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-delay="100">
+                    <img src="./img/download (5).jfif" class="img-fluid shadow">
                   </div>
                 </div>
              </div>
@@ -126,7 +156,7 @@
     </section>
     <section class="bg-light">
         <!-- our project content -->
-        <div class="container-fluid padding  bg-light" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="100">
+        <div class="container-fluid padding  class="bg-light"">
             <div class="row  mx-md-5 px-md-5 m-2  " >
                 <div class="col-12 shadow">
                     <h5>
@@ -159,25 +189,24 @@
     <footer id="footer">
         <div class="footer-top">
             <div class="container">
-                <div class="row">
+                <div class="row" >
+                  <div class="col-lg-4 col-md-6 footer-contact" style="height: 200px">
+                    <img src="img/logo.png" height="85%">
+                    
+                  </div>
 
-                    <div class="col-lg-3 col-md-6 footer-contact">
-                        <h3>The Rising People Welfare Society</h3>
-                        <p><a href="https://goo.gl/maps/VCWbSRy8RZHmmAAe9" target="_blank" style="color: #777777;">
-                                Woodland Park, Block C<br>
-                                Tagore Garden, Subhash Nagar<br>
-                                Delhi, 110018</a><br><br>
-
-                            <strong>Phone:</strong> <a href="tel:+918800100021"
-                                style="color: #777777;">+918800100021</a><br>
-
-                            <strong>Email:</strong> <a href="mailto:trpws2012@gmail.com"
-                                style="color: #777777;">trpws2012@gmail.com</a><br>
+                    <div class="col-lg-4 col-md-6 footer-contact" style="height: 200px">
+                        <h3 style="color: #1E8449"><b>The Rising People Welfare Society</b></h3>
+                        <p>
+                            Woodland Park, Block C<br>
+                            Tagore Garden, Subhash Nagar<br>
+                            Delhi, 110018<br>
+                            <strong>Phone:</strong> +918800100021<br>
+                            <strong>Email:</strong> trpws2012@gmail.com<br>
                         </p>
                     </div>
-
-                </div>
-                <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                    <div class="col-lg-4">
+                      <div class="social-links text-center text-md-right pt-3 pt-md-0">
                     <a href="https://twitter.com/hashtag/trpws" class="twitter" target="_blank"><i
                             class="bx bxl-twitter"></i></a>
                     <a href="https://www.facebook.com/TRPWS/" class="facebook" target="_blank"><i
@@ -186,24 +215,17 @@
                             class="bx bxl-instagram"></i></a>
                     <a href="https://www.youtube.com/channel/UCv0nOO_iLRQcEyDQbu89jmw" class="google-plus"
                         target="_blank"><i class="bx bxl-youtube"></i></a>
-                    <a href="https://www.linkedin.com/company/the-rising-people-welfare-society/" class="linkedin"
-                        target="_blank"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/jobs/the-rising-people-welfare-society-jobs/?originalSubdomain=in"
+                        class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
                 </div>
+                    </div>
+
+                </div>
+                
             </div>
         </div>
     </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+<button onclick="topFunction()" id = "mybtn" title="Go to top">Go to Top</button>
     <!-- navbar animation -->
     <script>
         $(document).ready(function () {
@@ -217,11 +239,23 @@
             });
         });
     </script>
-    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
+
+<script type="text/javascript">
+      myButton = document.getElementById("mybtn");
+      window.onscroll = function() {scrollfunction()};
+      function scrollfunction() {
+        if(document.body.scrollTop  > 40 || document.documentElement.scrollTop > 40) {
+          myButton.style.display = "Block";
+        } else {
+          myButton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
     </script>
+
 
 </body>
 

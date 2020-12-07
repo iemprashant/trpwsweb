@@ -1,4 +1,3 @@
-  
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,6 +33,27 @@
 <link href="boxicons/css/boxicons.min.css" rel="stylesheet">
 <link rel="stylesheet" href="fontawesome/css/all.css">
 
+<style type="text/css">
+      #mybtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: #1E8449;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 18px;
+      }
+      #mybtn:hover{
+        background-color: #145A32;
+      }
+    </style>
+
 </head>
 
 <body>
@@ -41,7 +61,7 @@
 <!--navigation bar-->
 <div class="container-fluid menu">
   <nav class="navbar navbar-expand-lg my-navbar">
-      <a class="navbar-brand " href="#"><img src=".images/trpws.png" height="50" alt="" loading="lazy"></a>
+      <a class="navbar-brand " href="#"><img src="img/logo.png" height="85px" width="165px"  alt="" loading="lazy"></a>
       <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
           data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -140,39 +160,46 @@
 
 <!--footer-->
 <footer id="footer">
-  <div class="footer-top">
-      <div class="container">
-          <div class="row">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row" >
+                  <div class="col-lg-4 col-md-6 footer-contact" style="height: 200px">
+                    <img src="img/logo.png" height="85%">
+                    
+                  </div>
 
-              <div class="col-lg-3 col-md-6 footer-contact">
-                  <h3>The Rising People Welfare Society</h3>
-                  <p><a href="https://goo.gl/maps/VCWbSRy8RZHmmAAe9" target="_blank" style="color: #777777;">
-                      Woodland Park, Block C<br>
-                      Tagore Garden, Subhash Nagar<br>
-                      Delhi, 110018</a><br><br>
-                      
-                      <strong>Phone:</strong> <a href="tel:+918800100021" style="color: #777777;">+918800100021</a><br>
-                      
-                      <strong>Email:</strong> <a href="mailto:trpws2012@gmail.com" style="color: #777777;">trpws2012@gmail.com</a><br>
-                  </p>
-              </div>
+                    <div class="col-lg-4 col-md-6 footer-contact" style="height: 200px">
+                        <h3 style="color: #1E8449"><b>The Rising People Welfare Society</b></h3>
+                        <p>
+                            Woodland Park, Block C<br>
+                            Tagore Garden, Subhash Nagar<br>
+                            Delhi, 110018<br>
+                            <strong>Phone:</strong> +918800100021<br>
+                            <strong>Email:</strong> trpws2012@gmail.com<br>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                    <a href="https://twitter.com/hashtag/trpws" class="twitter" target="_blank"><i
+                            class="bx bxl-twitter"></i></a>
+                    <a href="https://www.facebook.com/TRPWS/" class="facebook" target="_blank"><i
+                            class="bx bxl-facebook"></i></a>
+                    <a href="https://www.instagram.com/trpws/" class="instagram" target="_blank"><i
+                            class="bx bxl-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCv0nOO_iLRQcEyDQbu89jmw" class="google-plus"
+                        target="_blank"><i class="bx bxl-youtube"></i></a>
+                    <a href="https://www.linkedin.com/jobs/the-rising-people-welfare-society-jobs/?originalSubdomain=in"
+                        class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                </div>
+                    </div>
 
-          </div>
-          <div class="social-links text-center text-md-right pt-3 pt-md-0">
-              <a href="https://twitter.com/hashtag/trpws" class="twitter" target="_blank"><i
-                      class="bx bxl-twitter"></i></a>
-              <a href="https://www.facebook.com/TRPWS/" class="facebook" target="_blank"><i
-                      class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/trpws/" class="instagram" target="_blank"><i
-                      class="bx bxl-instagram"></i></a>
-              <a href="https://www.youtube.com/channel/UCv0nOO_iLRQcEyDQbu89jmw" class="google-plus"
-                  target="_blank"><i class="bx bxl-youtube"></i></a>
-              <a href="https://www.linkedin.com/company/the-rising-people-welfare-society/"
-                  class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
-          </div>
-      </div>
-  </div>
-</footer>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+<button onclick="topFunction()" id = "mybtn" title="Go to top">Go to Top</button>
+
 
 
 <!-- Optional JavaScript -->    
@@ -206,6 +233,23 @@
 <!--Animation on scroll (Aos) link and script-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>AOS.init();</script>
+
+<script type="text/javascript">
+      myButton = document.getElementById("mybtn");
+      window.onscroll = function() {scrollfunction()};
+      function scrollfunction() {
+        if(document.body.scrollTop  > 40 || document.documentElement.scrollTop > 40) {
+          myButton.style.display = "Block";
+        } else {
+          myButton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+
 
 </body>
 
