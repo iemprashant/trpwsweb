@@ -1,1 +1,1 @@
-This is my internship project where I worked on HTML, CSS, JavaScript and Bootstrap 
+The Rising People Welfare Society's internship project where we made their Website using HTML, CSS and Javascript
